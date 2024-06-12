@@ -1,10 +1,6 @@
 {
   "name": "react-shopping-cart",
   "version": "0.1.0",
-  "private": true,
-  "engines": {
-    "node": "14.17.3"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^13.0.0",
@@ -46,17 +42,6 @@
       }
     }
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,json,css,md}": [
-      "prettier --write"
-    ]
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -80,8 +65,6 @@
     "@commitlint/config-conventional": "^16.2.1",
     "@testing-library/react-hooks": "^7.0.2",
     "@types/styled-components": "^5.1.23",
-    "firebase-tools": "^10.2.1",
-    "husky": "^4.2.5",
     "lint-staged": "^10.2.10",
     "prettier": "^2.5.1"
   }
